@@ -46,6 +46,9 @@ h2 { color: var(--blue); font-size: 25px; line-height: 1.2; margin: 0 0 24px; }
 .meeting::before { content: ""; position: absolute; left: -31px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: var(--blue); }
 .meeting time { display: block; color: var(--blue); font-size: 15px; font-weight: 700; margin-bottom: 8px; }
 .meeting .plain-list li { margin-bottom: 6px; }
+.validation-summary { max-width: 760px; }
+.validation-summary p { margin: 0 0 12px; }
+.validation-summary p:last-child { margin-bottom: 0; }
 .contributions { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
 .contribution { background: var(--soft); border: 1px solid var(--line); border-left: 3px solid var(--blue); border-radius: 8px; padding: 14px 16px; }
 .contribution h4 { color: var(--blue); font-size: 15px; margin: 0 0 4px; }
